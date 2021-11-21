@@ -1,0 +1,9 @@
+docker service create --name bbbb -p 9090:90 imagePqa
+
+docker stack deploy -c docker.yaml mystack
+
+docker service scale <serviceid> =no.of replicas
+
+docker service update --image <> (servicename)
+
+docker node update --availability active <nodeName>

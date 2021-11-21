@@ -1,0 +1,23 @@
+Jenkins:
+
+>Build with maven/java (if your app is java application), test with maven, deploy-using docker image and docker container
+>scripts to automate these steps using shell/ PowerShell
+>use these scripts in Jenkins file and build a pipeline
+>store this Jenkinsfile in your Git
+>configure the pipeline project and build pipeline using jenkinsfile present in git
+
+Kubernetes:
+
+>K3s from rancher labs
+>install kubernetes on one node (By default it will be master node) and get token id from master 
+node using  cat /etc/k3s/token file
+>install kubernetes on other nodes and apply the token id from master node (it will make this node as worker node
+and joins the cluster of master node)
+
+
+AWS:
+
+ec2, s3, ecr, apc-private cloud, cloudwatch-monitoring tool.Amazon file system AFS, amazon dynamo db
+amazon simple email service, 
+__code commit, codebuild, codedeploy, codepipeline
+__VPC, subnet, internet gateway, route tables
