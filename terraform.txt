@@ -1,0 +1,22 @@
+terraform {
+  required providers {
+    aws = { 
+      source = "hashicorp/aws"
+      version = "->3.72"
+    }
+  }
+}
+
+provider "aws" {
+  profile = "default"
+  region = "us-east-2a"
+}
+
+resource "aws_instance" "app_server" {
+  ami = "my-ubuntu"
+  instance_type = "t2.micro"
+  
+  tags ={
+    Name = "Exampleinstance"
+  }
+}
