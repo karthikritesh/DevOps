@@ -1,3 +1,6 @@
+
+
+
 Jenkins:
 
 >Build with maven/java (if your app is java application), test with maven, deploy-using docker image and docker container
@@ -19,5 +22,7 @@ AWS:
 
 ec2, s3, ecr, apc-private cloud, cloudwatch-monitoring tool.Amazon file system AFS, amazon dynamo db
 amazon simple email service, 
-__code commit, codebuild, codedeploy, codepipeline
-__VPC, subnet, internet gateway, route tables
+__code commit, codebuild, codedeploy, codepipeline VPC subnetting, beanstalk, lambda
+
+Scripting:
+log files check on specific days, site check, server restart, 
