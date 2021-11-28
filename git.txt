@@ -5,4 +5,4 @@ git checkout __new_branch_name -- creates new branch
 git log -- lists all the commit logs
 git restore -- reverts back the changes from staging area
 git status --shows status of changes to be made to staging area
-
+git rebase -- organises the changes made in different branches in sequential order
