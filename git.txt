@@ -1,0 +1,8 @@
+git init -- initialise ur local repo
+git commit -m "comment" --committing changes to ur staging area
+git branch -- lists all the available branches
+git checkout __new_branch_name -- creates new branch
+git log -- lists all the commit logs
+git restore -- reverts back the changes from staging area
+git status --shows status of changes to be made to staging area
+
