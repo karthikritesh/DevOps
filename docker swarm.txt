@@ -1,3 +1,11 @@
+docker swarm init --advertise-addr (public ip of instance)
+
+docker swarm join --token
+
+docker service ls
+
+docker node ls
+
 docker service create --name bbbb -p 9090:90 imagePqa
 
 docker stack deploy -c docker.yaml mystack
