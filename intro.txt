@@ -1,0 +1,25 @@
+personal intro: ~1 min
+
+Profession intro: ~15min
+Have exp working in real-estate, Telecom B2B & B2C, Medical Enterprise apps builds B2B, ESM platforms B2B
+
+E2E exp in building enterprise grade apps, includes 
+- infra creation
+- building react, dotnet, java apps, npm, nuget
+- sem versioning
+- pipelines
+- docker
+- helm charts
+- k8s
+- DNS management
+- Devsecops implementation
+- Autoscalling with Karpenter
+- mainly in azure
+
+infra: terraform, terragrunt
+Building apps: tar files and npm, nuget files, storing in ghcr.io
+helm charts: built sub charts, parent charts, created many helper functions, tpl templates to reuse, helmfile.yaml for devs
+pipelines: git actions, CICD, pr check pipelines, used azure container created in private vnet to deploy to private AKS
+Docker: multistage dockerfiles
+Devsecops implementation: Integrated azure firewall, policy controller for cluster level security, 
+
