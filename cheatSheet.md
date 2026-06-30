@@ -220,3 +220,26 @@ inputs = {
   vm_names = ["vm-web-dev", "vm-app-dev"]
   size     = "Standard_B1s"
 }
+```
+### helm commands
+
+## helm rollback
+rollbacks to previous revisition
+
+## helm template
+renders the chart templates, this will show error if there is a syntax problem
+
+## helm install or helm upgrade
+installs the fresh chart, upgrade cmd is used for upgrading existing chart
+
+## what is the way helm stores history and state
+helm stores it as kubernetes secret or configmap in same namespace as release- But limit is 1MB
+
+## what is the way to overcome this limit
+For deployments requiring large configurations, Helm provides a beta SQL storage backend. set the HELM_DRIVER environment variable to sql 
+
+## What is the difference between helm test and helm lint?
+helm lint runs a series of tests to verify that the chart structure and YAML syntax are correct before installation. helm test runs inside a Kubernetes pod defined within your chart to verify that the deployed application actually functions as intended in the cluster.
+
+## Explain Helm Hooks and execution order.
+Hooks allow you to intervene at lifecycle points (e.g., pre-install, post-upgrade, pre-delete). By setting helm.sh/hook-weight, you dictate the order of execution
